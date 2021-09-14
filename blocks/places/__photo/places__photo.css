@@ -1,0 +1,27 @@
+.places__photo{
+  margin: 0;
+  padding: 0;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__photo{
+    max-width: 440px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .places__photo{
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__photo{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 0 32px 0;
+  }
+}
