@@ -3,15 +3,8 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
-  width: 77px;
-  height: 28px;
+  gap: 18px;
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-  .header__lang-links{
-    width: 62px;
-    height: 22px;
-  }
-}
+
